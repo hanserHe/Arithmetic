@@ -13,6 +13,8 @@
 		58BBFDE8214603610087B6DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BBFDE7214603610087B6DA /* Assets.xcassets */; };
 		58BBFDEB214603610087B6DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BBFDE9214603610087B6DA /* LaunchScreen.storyboard */; };
 		58BBFDF6214603610087B6DA /* Arithmetic_LeetcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBFDF5214603610087B6DA /* Arithmetic_LeetcodeUITests.swift */; };
+		58BBFE01214654110087B6DA /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBFE00214654110087B6DA /* TopicCell.swift */; };
+		58BBFE04214664610087B6DA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBFE03214664610087B6DA /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		58BBFDF1214603610087B6DA /* Arithmetic_LeetcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Arithmetic_LeetcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BBFDF5214603610087B6DA /* Arithmetic_LeetcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arithmetic_LeetcodeUITests.swift; sourceTree = "<group>"; };
 		58BBFDF7214603610087B6DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58BBFE00214654110087B6DA /* TopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
+		58BBFE03214664610087B6DA /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		58BBFDDF2146035E0087B6DA /* Arithmetic_Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				58BBFE02214664300087B6DA /* SubController */,
 				58BBFDE02146035E0087B6DA /* AppDelegate.swift */,
 				58BBFDE22146035E0087B6DA /* ViewController.swift */,
 				58BBFDE42146035E0087B6DA /* Main.storyboard */,
 				58BBFDE7214603610087B6DA /* Assets.xcassets */,
 				58BBFDE9214603610087B6DA /* LaunchScreen.storyboard */,
 				58BBFDEC214603610087B6DA /* Info.plist */,
+				58BBFE00214654110087B6DA /* TopicCell.swift */,
 			);
 			path = Arithmetic_Leetcode;
 			sourceTree = "<group>";
@@ -94,6 +100,14 @@
 				58BBFDF7214603610087B6DA /* Info.plist */,
 			);
 			path = Arithmetic_LeetcodeUITests;
+			sourceTree = "<group>";
+		};
+		58BBFE02214664300087B6DA /* SubController */ = {
+			isa = PBXGroup;
+			children = (
+				58BBFE03214664610087B6DA /* TestViewController.swift */,
+			);
+			path = SubController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +212,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				58BBFDE32146035E0087B6DA /* ViewController.swift in Sources */,
+				58BBFE01214654110087B6DA /* TopicCell.swift in Sources */,
+				58BBFE04214664610087B6DA /* TestViewController.swift in Sources */,
 				58BBFDE12146035E0087B6DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Arithmetic_Leetcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,6 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Arithmetic_Leetcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
